@@ -11,4 +11,4 @@ visual concept and the first-comment text.
 Use `vapi-network/02-linkedin/templates/post-template.md` and save to
 `vapi-network/02-linkedin/post-bank/YYYY-MM-DD-<slug>.md`.
 
-No invented data. Only Call is live. Always "vAPI Network".
+No invented data. Lead with the hiring problem, not the protocol. Always "vAPI Network".

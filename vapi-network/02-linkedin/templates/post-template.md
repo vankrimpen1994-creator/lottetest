@@ -3,7 +3,7 @@ id:
 date:
 status: draft          # draft | in-review | approved | scheduled | live
 account: company       # company | founder-<name>
-pillar:                # agent-economy | trust-control | build-public | proof-people | supply-side
+pillar:                # commissioning | trust-control | agent-economy | proof-people | supply-side
 icp:                   # A-demand | B-supply | C-amplifier
 format:                # text-image | carousel | video | text-only | document | poll
 url:
@@ -19,7 +19,7 @@ url:
 
 
 ## Hashtags
-#x402 #agenticpayments #agenteconomy
+#futureofwork #agenticpayments #agenteconomy
 
 ## First comment (all links live here, never in the body)
 
@@ -32,7 +32,8 @@ url:
 
 ## Checks
 - [ ] "vAPI Network" in the first line
-- [ ] No claim that Tasks / Compute / Stake are live
+- [ ] Hook leads with the hiring problem, not the protocol
+- [ ] No ship-date claim for Compute or Stake
 - [ ] Every number sourced
 - [ ] No banned words
 - [ ] No link in the body

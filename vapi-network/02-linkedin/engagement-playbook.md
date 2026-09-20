@@ -22,10 +22,10 @@ engineering, agency owners posting about agents in production. _Target: 7/week._
 monetisation or billing pain. _Target: 5/week._
 
 ## What a good comment looks like
-1. **Add a fact** — "x402 governance moved to the Linux Foundation in April with Visa and Mastercard as members, which changes the procurement conversation quite a bit."
-2. **Make a distinction** — "Worth separating custodial from non-custodial here. Most agent-payment tools hold the funds; the risk profile is completely different."
-3. **Offer a counter-example** — "We see the opposite in the x402 data: >80% settles on Base, almost all USDC."
-4. **Ask a real question** — "How are you capping spend today? That's the part I never see a clean answer to."
+1. **Add a fact** — "x402 governance moved to the Linux Foundation in April, with Visa and Mastercard as members. That changes the procurement conversation quite a bit."
+2. **Make a distinction** — "Worth separating 'money held' from 'money sent'. Most platforms take payment up front and call it escrow; the risk profile is completely different."
+3. **Offer a counter-example** — "The dispute step is the bit people skip over. Three independent reviewers is a very different thing from appealing to the platform that takes the fee."
+4. **Ask a real question** — "How do you handle it when work comes back at 80%? I've never seen a clean answer."
 
 ## What never to do
 - "Great post!" / "💯" / "This 👆"

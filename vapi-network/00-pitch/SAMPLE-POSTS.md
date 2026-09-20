@@ -1,84 +1,88 @@
-# Sample Posts — written for the pitch
+# Sample Posts — execution proof
 
-Three posts, three pillars, three ICPs. Show these on the call. They're the fastest way
-to prove the voice is right before anyone has to trust a plan.
+Three posts, three pillars, three ICPs. Show these if the agency wants to see the voice —
+it proves in sixty seconds what strategy talk can't.
 
-> Every factual claim below is sourced in `01-strategy/client-profile.md`. Nothing is invented.
+**Note the pattern in all three: the hook is a hiring problem. The protocol shows up
+late, as proof, or not at all.** That's the strategic call, and it's visible in the copy.
 
----
-
-## 1 · Trust & Control — ICP A (buyers) · text + stat card · founder profile
-
-> Would you give an autonomous process your company card?
->
-> Nobody says yes to that question. But 165 million agent payments happened on x402 last year, and almost none of them had a hard spend cap.
->
-> That gap is the whole problem with agent payments right now. The tooling raced ahead of the controls.
->
-> Three questions worth asking of anything you let an agent pay with:
->
-> 1. Is the spend policy checked before the transaction is signed, or after it fails?
-> 2. Where does the private key actually live? If the answer is "our servers", you've outsourced custody without calling it that.
-> 3. Is there a receipt? Not a dashboard you can log into — a record you hold.
->
-> We built vAPI Network around those three answers, because we couldn't find a tool that gave all three. Key stays encrypted on your machine. Policy applies before signing. Every payment writes to a local append-only ledger.
->
-> None of that is exciting. It's just what has to be true before finance signs off.
->
-> What's stopping you from letting an agent spend money today — the tech, or the audit trail?
->
-> #x402 #agenticpayments #agenteconomy
-
-**Visual:** stat card — "165,000,000 agent payments. Almost no spend caps."
-**First comment:** link to the Hacken audit + the repo.
-**Why it works:** opens with the reader's fear, answers with mechanisms, ends with a
-question that is genuine ICP research. No product pitch until line 8.
+> Every factual claim is sourced in `01-strategy/client-profile.md`. Nothing is invented.
 
 ---
 
-## 2 · The Agent Economy — ICP A + B · carousel, 8 slides · company page
+## 1 · How Work Gets Commissioned — ICP A (buyers) · text + image · founder profile
 
-**Title:** *x402, explained for people who don't work in crypto*
+> The contractor went quiet at 80% done.
+>
+> You'd paid half up front. The scope was a Slack thread. There was no process for what happens next — just you, deciding whether chasing it was worth more than writing it off.
+>
+> Most people have a version of this story. It's why so much specialist work never gets outsourced at all.
+>
+> Here's what changes when the money sits in escrow instead:
+>
+> → Scope and price are signed by both sides before anything starts. "Done" isn't arguable later because it was defined earlier.
+> → The buyer locks the funds. Not sent — locked. The person doing the work can see the money exists.
+> → Work gets reviewed before payment releases. You see it before you pay for it.
+> → If there's a disagreement, three independent reviewers decide. Two matching votes release, refund, or split it.
+>
+> Nobody is working on trust alone, and nobody is chasing an invoice on day 70.
+>
+> That's what we built vAPI Network to do. The part that still surprises people is that an AI agent can commission work the same way — same escrow, same review step, same dispute process.
+>
+> What's the thing that's gone wrong most often when you've hired someone?
+>
+> #futureofwork #agenticpayments #agenteconomy
+
+**Visual:** simple four-step flow — Scope signed → USDC locked → Work reviewed → Payment released.
+**First comment:** link.
+**Why it works:** opens inside a story the reader has lived, explains the mechanism in
+four lines, product arrives at line 9. Closes with genuine ICP research, not a demo ask.
+
+---
+
+## 2 · How Work Gets Commissioned — ICP A + B · carousel, 8 slides · company page
+
+**Title:** *What actually happens when you hire through escrow*
 
 | Slide | Copy |
 |---|---|
-| 1 | **x402, explained for people who don't work in crypto.** There's a payments standard behind AI agents. Your board has probably heard of the members. |
-| 2 | HTTP has always had a status code reserved for this. **402: Payment Required.** It sat unused for about 30 years. |
-| 3 | x402 finally uses it. A server answers a request with "402 — this costs $0.004." The client pays. The request goes through. No account. No login. No invoice. |
-| 4 | **Why now:** agents. A human can fill in a billing form. An autonomous process at 3am cannot. |
-| 5 | **Who's behind it:** Coinbase launched it in 2025. Governance moved to the **Linux Foundation in April 2026** — 22 launch members including Google, Visa, Mastercard, Stripe, AWS and Circle. |
-| 6 | **The scale so far:** 69,000 active agents. 165 million transactions. Over 80% settling on Base, almost all in USDC. |
-| 7 | **What it changes:** an API can be sold per request, to a machine, for fractions of a cent — with no billing page and no chasing payment. |
-| 8 | vAPI Network is one wallet for every x402 API. Non-custodial, spend-capped, audited, Apache 2.0. **Link in the comments.** |
+| 1 | **What actually happens when you hire through escrow.** Five steps. No invoice chasing, no working on trust. |
+| 2 | **1 · Scope gets signed.** Both sides agree what "done" means and what it costs — before anything starts. Most disputes die here. |
+| 3 | **2 · The money gets locked.** The buyer funds escrow in USDC. Not sent to the worker. Not still in the buyer's account. Held. |
+| 4 | **3 · The work happens.** The person doing it can see the money exists. The person paying hasn't handed it over. |
+| 5 | **4 · Review before release.** You see the work before you pay for it. Accept, and payment releases automatically. |
+| 6 | **5 · Disputes have a process.** Three independent reviewers. Two matching votes release, refund, or split the escrow. No argument, no write-off. |
+| 7 | **The part people don't expect:** an AI agent can do all of this too — commission work, fund it, review it — with hard spend caps. |
+| 8 | vAPI Network is an onchain task market for agents and humans. **Link in the comments.** |
 
-**Why it works:** vendor-neutral for 7 of 8 slides, so it travels. The Linux Foundation
-slide is the one that gets screenshotted — it's what reframes this from "crypto" to
-"standard". Carousels get the best dwell time on LinkedIn.
+**Why it works:** vendor-neutral for 6 of 8 slides, so it travels beyond the follower
+base. Slide 6 is the screenshot — a defined dispute process is the thing no freelance
+platform explains well. Carousels get the best dwell time on LinkedIn.
 
 ---
 
 ## 3 · Supply-Side — ICP B (sellers) · text + image · company page
 
-> Your API made four-tenths of a cent last night, and you didn't do anything.
+> The money was already locked before you wrote the first line.
 >
-> That's the part that takes a while to get used to.
+> That's the part that takes some getting used to.
 >
-> If you run an API today, monetising it means a billing provider, a pricing page, a login wall, invoicing, and someone chasing a $40 invoice for three weeks. For a call worth $0.004, the overhead is comically larger than the payment.
+> If you do specialist work, you know the pattern. You scope it generously. You start on good faith. Halfway through, the ask quietly grows. You deliver, you invoice, and then you wait — 30 days, then 45, then you send the polite follow-up that costs you something to write.
 >
-> So most people don't bother. The API stays internal, or free, or behind a wall that only enterprise customers get past.
+> On vAPI Network the sequence runs the other way round.
 >
-> x402 removes the overhead. A machine requests your endpoint, gets told the price, pays it, and gets the response. No account created. No invoice raised. Money settles directly to you in USDC.
+> → Scope and price are signed by both sides before you start, so growth in the ask is visible rather than assumed
+> → The buyer locks the funds in escrow first. You can see they exist
+> → When the work is accepted, payment releases. In USDC. Not in 60 days
+> → If they dispute it, three independent reviewers decide — not the client, and not us
 >
-> There are roughly 69,000 active agents already doing this, across 165 million transactions.
+> You still have to do good work. You just don't have to fund the client's cash flow while you wait to be paid for it.
 >
-> vAPI Network is how they find you and pay you.
+> If you've ever written off an invoice, what would have prevented it?
 >
-> If you've got an API sitting behind a login wall because billing wasn't worth the effort — that reason expired.
->
-> What would you list first?
->
-> #x402 #apimonetization #agenteconomy
+> #freelance #futureofwork #agenteconomy
 
-**Visual:** simple receipt graphic — one line item, `$0.004`, 03:41 UTC, settled.
-**Why it works:** concrete scene as the hook, names the exact operational pain the ICP
-lives with, and the close is a low-friction question rather than a demo request.
+**Visual:** escrow status card — `Scope signed ✓ · Funds locked ✓ · In review` — muted, receipt-like.
+**Why it works:** hook is a concrete moment, then it names the exact operational pain the
+ICP lives with weekly. "You still have to do good work" keeps it honest rather than
+salesy. Low-friction closing question.

@@ -1,97 +1,83 @@
 # Client Profile — vAPI Network
 
-_Researched 2026-09-20. Every claim below is sourced. Anything unsourced is marked
-`[UNVERIFIED — ask on the call]`._
+_Researched 2026-09-20, corrected 2026-09-21. Sources at the bottom. Anything unverified
+is marked `[UNVERIFIED — confirm]`._
 
-## What they actually are
+## What they are
 
-**vAPI Network** (`vapinetwork.ai`) — positioning line on the homepage:
+**vAPI Network** (`vapinetwork.ai`) — homepage line:
 > "Onchain task market for agents and humans."
 
-They are **not** `vapi.ai`, the voice-AI company. See "The name problem" below — this
-is the single biggest LinkedIn-specific issue and our opening insight on the call.
+**The core proposition, in the client's own framing:** a platform where you **hire agents
+(or humans) for scoped work at a fixed price, paid through USDC escrow.**
 
-### The product, in plain English
-An open-source, **non-custodial TypeScript toolkit** that lets a person or an AI agent
-discover and pay for APIs using one wallet, over the **x402** payment protocol.
-From the GitHub repo:
-> "One wallet, every x402 API. Non-custodial agent client, MCP server, CLI and gateway
-> for Call, Tasks and Compute."
+This is the headline. The x402 payment plumbing underneath is *how* it works, not *what
+it is.* Content that leads with the protocol rather than the hiring proposition is
+pitched at the wrong altitude.
 
-### The four products and their real status
+### The Tasks flow — the thing to explain over and over
+1. Work is scoped. **Both sides sign the scope and the price.**
+2. The buyer **locks the agreed USDC in escrow.**
+3. Work is delivered and reviewed.
+4. **Accepted work releases payment** and records the outcome.
+5. **A dispute goes to three reviewers. Two matching votes release, refund, or split the escrow.**
+
+That's a complete, legible story for a business audience — fixed price, money held safely,
+a review step, and a defined way to settle a disagreement. It maps onto problems every
+company already has with freelancers and contractors. **This is the spine of the content plan.**
+
+### The wider product set
 | Product | What it does | Status |
 |---|---|---|
-| **Call** | Finds x402 APIs, reads the live price, asks the buyer to approve that USDC amount, pays the service directly | **Live today** |
-| **Tasks** | Post scoped work, fund it in USDC escrow, review the result before payment. Disputes go to 3 reviewers; 2 matching votes release, refund or split | Next / coming soon |
+| **Tasks** | Post scoped work, fund it in USDC escrow, review before payment, 3-reviewer dispute resolution | Core proposition `[UNVERIFIED — confirm live status: the repo lists Tasks as "next", the site describes the flow in the present tense]` |
+| **Call** | Discover x402 APIs, read live price, approve the USDC amount, pay the service directly | Live |
 | **Compute** | — | Roadmap |
 | **Stake** | — | Coming soon |
 
-**This matters for content:** only *Call* ships today. Our content calendar must not
-imply Tasks/Compute/Stake are live. Pre-launch products get "building in public"
-treatment (roadmap, design decisions, waitlist), not "buy now" treatment.
+**Content rule:** lead with Tasks (the hiring + escrow story). Use Call as proof the rails
+already work. Don't claim ship dates for Compute or Stake.
 
-### Technical facts we can safely say in content
-- Non-custodial. Private key generated locally, encrypted under a passphrase, **never leaves the machine**.
-- Spend policy applied **before** signing. Caps per wallet, per call, and per day.
-- Payments route **directly** from the local wallet to the service — vAPI does not hold funds or proxy payments.
-- Receipts written to a **local append-only ledger**. No telemetry off the machine by default.
-- **Security audit completed by Hacken.**
-- **Apache 2.0**, open source.
+### Supporting facts we can safely use
+- Agents can "discover services, pay in stablecoins, hire specialized agents or humans, and receive results **without accounts, dashboards or manual workflows.**"
+- **Non-custodial.** Key generated locally, encrypted under a passphrase, never leaves the machine.
+- Spend policy applied **before** signing. Caps per wallet, per call, per day.
+- Payment routes **directly** to the service. vAPI does not hold funds or proxy payments.
+- Receipts to a **local append-only ledger**. No telemetry off the machine by default.
+- **Security audit by Hacken.** **Apache 2.0**, open source.
 - Chains: EVM (Base mainnet, Arc testnet) and Solana. Settlement in **USDC**.
-- Interfaces: `vapi` CLI, **MCP server** (works with Claude, Claude Desktop, Cursor),
-  TypeScript SDK (`@vapi-network/core`, `@vapi-network/sources`), gateway (`vapi serve`, preview).
-- Roadmap: local gateway daemon with per-key budgets, OpenTelemetry tracing,
-  task/compute payment tools, discovery expansion (x402scan, Coinbase Bazaar).
+- Interfaces: `vapi` CLI, **MCP server** (Claude, Claude Desktop, Cursor), TypeScript SDK, gateway (preview).
 
-### The category tailwind (our credibility ammunition)
-x402 is not a fringe standard, and this is the fact that makes the whole thing
-legible to a LinkedIn B2B audience:
-- Launched by **Coinbase**, May 2025.
-- **x402 Foundation** formed with Cloudflare, 2025. Core members include
-  **Google, Visa, AWS, Circle, Anthropic, Vercel**.
-- Governance moved to the **Linux Foundation, April 2026** — 22 launch members
-  including Google, Visa, **Mastercard, Stripe**, AWS, Circle.
+### Category context (credibility ammunition)
+- **x402** launched by Coinbase, May 2025. Governance moved to the **Linux Foundation, April 2026** — 22 launch members including Google, Visa, Mastercard, Stripe, AWS, Circle.
 - Coinbase reported **69,000 active agents and 165M transactions** by late April 2026.
 - >80% of x402 payments settle on **Base**, almost all in **USDC**.
 
-## The name problem (open the meeting with this)
+## The name collision (a real, fixable problem)
 
-`vapi.ai` is a different, much larger company: voice-AI infrastructure, YC W21,
-**$50M Series B led by Peak XV announced May 2026** ($72M total), 1M+ developers,
-2.7M agents created, 1B+ calls.
+`vapi.ai` is a different company — voice-AI infrastructure, YC W21, **$50M Series B in May
+2026**, 1M+ developers. On LinkedIn, where search is heavily name-match weighted, typing
+"VAPI" surfaces them, not vAPI Network.
 
-Consequences on LinkedIn specifically:
-- LinkedIn search is heavily name-match weighted. Typing "VAPI" surfaces the voice-AI
-  company and jobs in Vapi, Gujarat. vAPI Network is invisible.
-- Any "VAPI" hashtag or mention is diluted by a company with orders of magnitude more volume.
-- Prospects who Google after seeing a post land on the wrong company.
+Mitigations, all free, all Week 0:
+1. Page name is **"vAPI Network"**, never "VAPI" alone; tagline carries "onchain task market"
+2. "vAPI Network" in every post's first line and every image watermark
+3. Own `#x402` / `#agenticpayments` / `#agenteconomy`, never `#vapi`
+4. Claim the custom page URL immediately
 
-**Mitigations we propose (Week 0, costs nothing, immediate):**
-1. Company page name is **"vAPI Network"** — never "VAPI" alone. Tagline carries
-   "onchain task market" so the preview card disambiguates.
-2. **Every post's first line** and **every image watermark** uses "vAPI Network".
-3. Own a distinct hashtag set (`#x402`, `#agenticpayments`, `#agenteconomy`) rather
-   than `#vapi`.
-4. Secure the LinkedIn page custom URL/handle now, before someone else does.
-5. Consistent bio line across every employee profile so the page gains name authority.
-
-`[UNVERIFIED — ask on the call]` Is a rebrand or name change on the table? It changes
-how hard we push name-building vs. category-building.
-
-## What we still need from them
-- Does a LinkedIn company page exist already, or is it genuinely zero?
-- Which founders/execs will post from **personal** profiles? (See `kpi-framework.md` —
-  this is the #1 determinant of whether the numbers land.)
-- Brand assets: logo files, fonts, colour hexes, any existing deck.
-- Who approves content, and how fast? (Target: 48h turnaround.)
-- Is there a token, a raise, or a Tasks launch date in the next 90 days? Those are
-  content moments we'd build the calendar around.
-- Do we get access to the founders for podcast hosting, or are we producing only?
+## Open questions
+- Is Tasks live to the public today, or in private beta?
+- Which side is the constraint right now — buyers posting work, or agents/humans to do it?
+- Who are the current users, and can we cite any of them?
+- Is there a token, raise or launch in the next 90 days to build a calendar around?
+- Does a LinkedIn company page exist? Who would post from personal profiles?
 
 ## Sources
-- https://vapinetwork.ai/
+- https://vapinetwork.ai/ · https://vapinetwork.ai/about _(both egress-blocked from this environment — **verify directly**)_
 - https://github.com/vAPI-Network/vapi-network
 - https://x.com/vAPI_Network
 - https://www.alchemy.com/blog/how-x402-brings-real-time-crypto-payments-to-the-web
 - https://www.leadrpro.com/blog/vapi-s-50m-raise-puts-voice-ai-into-b2b-lead-generation
-- https://vapi.ai/
+
+> **Note:** `vapinetwork.ai` is blocked by this environment's network egress proxy, so the
+> site could not be read directly. Everything above comes from the GitHub repo, search
+> results and ecosystem sources. **Confirm the homepage and /about copy before use.**

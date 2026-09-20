@@ -18,9 +18,9 @@ _Two sentences. Where we landed against the target band, and why._
 ## Pillar performance
 | Pillar | Posts | Avg impressions | Avg eng. rate | Verdict |
 |---|---|---|---|---|
-| Agent Economy | | | | |
+| How Work Gets Commissioned | | | | |
 | Trust & Control | | | | |
-| Build in Public | | | | |
+| The Agent Economy | | | | |
 | Proof & People | | | | |
 | Supply-Side | | | | |
 

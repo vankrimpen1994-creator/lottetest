@@ -4,24 +4,31 @@ Read this before any work in this folder. Full research: `01-strategy/client-pro
 
 ## Who the client is (get this right — there's a name collision)
 **vAPI Network** (`vapinetwork.ai`) — "onchain task market for agents and humans".
-Non-custodial toolkit for discovering and paying x402 APIs. Products: **Call (live)**,
-Tasks, Compute, Stake (not live).
+**A platform where you hire agents or humans for scoped work at a fixed price, paid
+through USDC escrow.** Both sides sign the scope and price, the buyer locks USDC,
+accepted work releases payment, and disputes go to three reviewers (two matching votes
+release, refund or split). Products: **Tasks** (the core proposition), **Call** (live —
+discover and pay x402 APIs), Compute and Stake (roadmap).
 
 **They are NOT `vapi.ai`**, the voice-AI company (YC W21, $50M Series B, 1M+ devs).
 Different company. When researching, always disambiguate.
 
 ## Hard rules
-1. **Only Call is live.** Never write copy implying Tasks, Compute or Stake have shipped.
-   Pre-launch products get build-in-public framing only.
-2. **Always "vAPI Network", never "VAPI" alone.** First line of every post, every
+1. **Lead with the hiring proposition, never the protocol.** The story is scoped work,
+   fixed price, escrow, review, disputes. x402 and the non-custodial plumbing are *proof
+   it works*, introduced later in a post — never in the hook. If the first two lines
+   contain "x402", rewrite them.
+2. **Never claim ship dates for Compute or Stake.** Confirm Tasks' public availability
+   before writing copy that assumes anyone can use it today.
+3. **Always "vAPI Network", never "VAPI" alone.** First line of every post, every
    watermark. This is the fix for the name collision.
-3. **No invented metrics, quotes, case studies, testimonials or client results.**
+4. **No invented metrics, quotes, case studies, testimonials or client results.**
    If it isn't in a file here or from a cited source, write `[NEEDS DATA: ...]`.
-4. **Never publish externally without explicit per-item approval.** Drafting is safe;
+5. **Never publish externally without explicit per-item approval.** Drafting is safe;
    posting, DMing and scheduling are not.
-5. **Never freelance on compliance.** Regulation, securities, custody, tax and
+6. **Never freelance on compliance.** Regulation, securities, custody, tax and
    jurisdiction questions get escalated to the client, not answered.
-6. Read `01-strategy/voice-and-tone.md` before writing any copy, and check the
+7. Read `01-strategy/voice-and-tone.md` before writing any copy, and check the
    banned-words list before you finish.
 
 ## Voice, in one line

@@ -1,6 +1,10 @@
 # Session 01 — Project setup & pitch preparation
 **Date:** 2026-09-20 · **Goal:** stand up the project folder and prepare tomorrow's agency pitch
 
+> **Superseded in part — see `2026-09-21-session-02-corrections.md`.** This session led
+> with the x402/Call plumbing rather than the hiring-and-escrow proposition, and prepared
+> for a client meeting rather than an agency one. Both corrected the next day.
+
 ## What was asked
 Build a dedicated project folder for the vAPI Network trial (LinkedIn from scratch,
 podcast management, graphic design), structured so different tasks run in different

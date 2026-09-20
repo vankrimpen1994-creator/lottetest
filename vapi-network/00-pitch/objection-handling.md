@@ -1,98 +1,114 @@
-# Objection Handling
+# Objection Handling — agency meeting
 
-Format: what they say → what's really being asked → the answer. Keep answers short and
-mechanism-led. Never argue.
-
----
-
-**"How do we know this will actually generate leads?"**
-_Real question: are you going to waste our money?_
-> "You don't yet, and I won't pretend otherwise from a zero-follower start. What I can
-> commit to is the leading indicators — engagement rate above 3% and comments from the
-> right job titles — inside four weeks. Those precede pipeline reliably. And we've set
-> a kill criterion: if at week six engagement is under 2% with zero qualified
-> conversations, we stop and re-plan instead of billing you for posts."
+These are the agency's objections, not the client's. The agency's real underlying
+question is almost always the same: **"will these people make me look bad in front of
+my client?"** Answer that, whatever they actually asked.
 
 ---
 
-**"Our audience is on Crypto Twitter, not LinkedIn."**
-_Real question: is this the wrong channel?_
-> "Your *developer* audience is on CT. Your *buyer* is not. The person who authorises a
-> company to route real money through agent infrastructure is a head of platform or a
-> CFO, and they're on LinkedIn. Also — that's exactly why it works. Every competitor is
-> fighting for attention on CT. LinkedIn is uncontested. You'd be the only serious voice
-> on agentic payments there."
+**"How do we know you can deliver consistently?"**
+> "That's the right question, and it's why we brought the system rather than a portfolio.
+> Every recurring job — weekly content, engagement, podcast repurposing, design briefs,
+> reporting — runs from a written procedure with a QC checklist. It's not dependent on
+> anyone being inspired on a Thursday. The vAPI plan in front of you came out of that
+> process in a day."
 
 ---
 
-**"$1,300 feels like a lot for social media."**
-_Real question: what am I actually buying?_
-> "It's not social media posting, it's 28–30 published assets a month, a produced
-> podcast that doubles as a business-development channel, all the design, and the
-> strategy behind it. A single mid-level marketing hire is ten times that and can't do
-> the podcast. Compare it to one qualified enterprise conversation — if it produces one
-> a month, it's paid for itself."
-
----
-
-**"Why do our founders have to post? Can't you run the page?"**
-_The one you must not soften._
-> "I can run the page, and it'll underperform. LinkedIn deliberately suppresses company
-> page reach — personal profiles get five to twenty times the reach at the same follower
-> count. From zero, the page has no distribution to borrow. Founder profiles do.
+**"What happens if you get something factually wrong about our client's product?"**
+_The one that actually worries them._
+> "It's the first rule in our QC: no invented metrics, quotes, case studies or results,
+> ever. If we don't have a number, it's marked as missing, not estimated. Every factual
+> claim in that client profile has a source next to it.
 >
-> We make it a fifteen-minute job: we write it, you edit and post. But if founders won't
-> post, I'd want to reset the targets down now rather than miss them later."
+> And anything touching regulation, custody or legal gets escalated to you — we never
+> answer it ourselves. On a client in this category that matters more than usual."
 
 ---
 
-**"We can't talk about the roadmap publicly."**
-> "Good — that keeps us honest. We'll only claim Call, which is live. Tasks, Compute and
-> Stake get build-in-public framing: design decisions and problems, never launch dates
-> you haven't set. That's actually stronger content for a developer audience than an
-> announcement would be."
+**"Do you white-label?"**
+> "By default. You own the client relationship, our name appears nowhere. We join client
+> calls only if you invite us, and under your banner. Reporting is written so you can
+> forward it unedited."
 
 ---
 
-**"What if we get a negative or a compliance-sensitive comment?"**
-> "There's an escalation protocol in the ops folder. Technical criticism gets answered
-> in public with a mechanism — it's some of the best content we can produce. Anything
-> touching regulation, custody or securities gets routed to you, not answered by us.
-> We never freelance on compliance."
+**"Can you handle more than one client?"**
+> "Yes, and client two is cheaper to set up than client one — the system, templates, QC
+> and reporting already exist. What changes per client is the profile, the pillars and
+> the post bank. How many are you thinking about?"
+
+_Ask this one back. It's the most valuable question in the meeting._
 
 ---
 
-**"Can you guarantee X followers?"**
-> "No, and anyone who does is either buying followers or guessing. I'll give you bands
-> with the assumptions written down, and I'll tell you every week whether we're tracking
-> to the top or the bottom of them and why."
+**"$1,300 feels like a lot."** / **"Can you do it cheaper?"**
+> "At full scope that's around fifty published assets a month including strategy, design
+> and a produced podcast — roughly $26 an asset. If it's too much, I'd rather narrow the
+> scope than cut the cadence. Dropping from four posts a week to two doesn't halve the
+> cost and doesn't halve the result — it removes most of it. I'd cut video clips or
+> founder ghostwriting first."
 
 ---
 
-**"We tried LinkedIn before and it didn't work."**
-_Listen properly here — the answer is in their story._
-> "What did the cadence look like, and were the founders posting?" — Nine times out of
-> ten it was a company page, inconsistent, product announcements only. That's three
-> fixable problems, and the plan addresses all three.
+**"How much of this is AI?"**
+_Increasingly the real question. Answer it straight — hedging is what loses trust here._
+> "A lot of the production: research, first drafts, turning a transcript into a dozen
+> assets, formatting. That's how the volume works at this price, and I'd rather tell you
+> than have you find out.
+>
+> What's human: strategy, judgement, the guest relationships, client conversations, and
+> a review of every word before it reaches you. A person is accountable for everything
+> that ships. Our QC exists specifically to catch what AI gets wrong — invented numbers
+> are the main failure mode, so that's rule one."
+
+---
+
+**"Our client's audience is on Crypto Twitter, not LinkedIn."**
+> "Their developer audience, yes. The people who hire contractors and authorise spend
+> aren't. And that's exactly why LinkedIn works here — every competitor is fighting for
+> attention on CT, and LinkedIn is empty. A task marketplace is fundamentally a
+> future-of-work story, and that's a LinkedIn story."
+
+---
+
+**"Can you guarantee results?"**
+> "No, and I'd be careful with anyone who does. What we give you is bands with the
+> assumptions written next to them, and a weekly report that tells you which end of the
+> band we're tracking to and why — including when it's bad news. We've also put a kill
+> criterion in: week six, under 2% engagement and no qualified conversations, we stop
+> and re-plan rather than keep billing."
+
+---
+
+**"What do you need from the client?"**
+> "Brand assets, one named approver with a 48-hour window, page admin and analytics, and
+> straight answers on what's live versus roadmap.
+>
+> And the one that determines whether the numbers are realistic: founders posting from
+> personal profiles. LinkedIn suppresses company page reach badly. If nobody posts
+> personally, we should reset the targets down now rather than miss them later. That's
+> a conversation better had before the contract than in month two."
 
 ---
 
 **"How fast can you start?"**
-> "Week 0 starts Monday. First post live inside two weeks. The only thing that slows it
-> is brand assets and picking an approver — both of which we can settle today."
+> "Week 0 starts Monday. First post live inside two weeks. The only things that slow it
+> down are brand assets and naming an approver — both settleable this week."
 
 ---
 
-**"Can you do more channels — X, YouTube, newsletter?"**
-> "Yes, but not in this scope and not yet. Get one channel genuinely working first;
-> everything we build here — the podcast especially — feeds the others for almost no
-> extra cost. Let's revisit at day 90 with data rather than guesses."
+**"We've had freelancers go quiet on us."**
+_Listen properly. This is usually why they're being careful._
+> "Fair. What we'd commit to: one named contact, a weekly report whether or not there's
+> good news, and 48-hour turnaround in scope. If a month is under target it's in the
+> first three lines of the report, not buried. You should never be finding out from your
+> client."
 
 ---
 
-**"Who actually does the work — is this all AI?"**
-_Increasingly common. Answer it straight._
-> "We use AI heavily for research, drafting and production volume — that's how the
-> economics work at this price. Strategy, judgement, the guest relationships and every
-> word that goes out are reviewed by a person. You're buying the system and the
-> accountability, not the keystrokes."
+**"Why should we use you rather than hire in-house?"**
+> "If you've got consistent volume across clients, in-house eventually wins. What you're
+> buying now is speed and no fixed cost — a system that's already built, on a 30-day
+> notice. And if you do bring it in-house later, the documented process is
+> transferable."

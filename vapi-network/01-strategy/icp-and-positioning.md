@@ -1,70 +1,85 @@
 # ICP & Positioning
 
-## The strategic bet
+## Start from the proposition, not the protocol
 
-**Every competitor in agentic payments is fighting on Crypto Twitter. Nobody is on LinkedIn.**
+vAPI Network is a **marketplace where you hire agents or humans for scoped work at a
+fixed price, with the money held in USDC escrow until the work is accepted.**
 
-That's not an accident — it's a gap. CT rewards speed, memes and token speculation.
-LinkedIn rewards credibility, and it's where the people who can authorise a company to
-route real money through agent infrastructure actually are: heads of platform, VPs of
-engineering, ops and automation leads, CFOs, agency owners.
+That sentence is legible to any business owner. "Non-custodial x402 client with
+MCP-based service discovery" is not. Most content in this category fails because it
+leads with the second sentence. **We lead with the first, always.**
 
-x402 now has Google, Visa, Mastercard, Stripe, AWS and Circle behind it under Linux
-Foundation governance. That is a **LinkedIn story**, not a CT story. It's the story that
-turns "crypto thing" into "payments standard my board has heard of."
+The plumbing — x402, non-custodial keys, spend caps — comes in as *proof that it works*,
+in the second half of a post, never the hook.
 
-So: **we do not try to out-CT anyone. We own the uncontested channel where the budget lives.**
+## The pain we're selling against
 
-## vAPI is a two-sided market — so we recruit both sides
+Everyone who has ever hired a contractor knows this shape:
+- Scope was vague, so "done" was arguable
+- Payment terms were 30 days, then 60
+- The work came back wrong and there was no process, just an argument
+- Or you paid up front and got ghosted
 
-This is the core of the brief: "bring B2B businesses so they can bring recruitment to
-the platform." A task market is dead without both supply and demand. LinkedIn content
-must be deliberately split.
+vAPI's answer is mechanical rather than relational: **scope signed by both sides. Price
+fixed. Money locked before work starts. Released on acceptance. Disputes go to three
+reviewers and two matching votes settle it — release, refund, or split.**
 
-### ICP A — DEMAND (the buyers: post tasks, route agent spend)
+That's the story. It works on a business audience with zero crypto knowledge, because
+it's about a problem they already have.
+
+## Two-sided market — content recruits both
+
+### ICP A — DEMAND (post work, fund escrow)
 | | |
 |---|---|
-| **Titles** | Head of Automation / AI, Head of Platform, VP Engineering, CTO at 20–500 person B2B SaaS; Ops Directors; agency owners running delivery teams |
-| **Geo** | US, UK, NL/DACH, Singapore |
-| **The pain** | Their agents need to buy things — data, APIs, compute, human review — and there is no clean way to let a bot spend money with a spend cap and an audit trail. Today it's a shared corporate card, a spreadsheet, and anxiety. |
-| **What they fear** | An autonomous process with access to funds. Unbounded spend. No receipts. Compliance asking "who approved this." |
-| **What converts them** | Spend caps enforced before signing. Local append-only receipt ledger. Non-custodial — key never leaves the machine. Hacken audit. Apache 2.0. |
-| **Where they hang out** | LinkedIn, Hacker News, dev podcasts, r/LocalLLaMA-adjacent. Not CT. |
+| **Titles** | Founders and COOs of 10–200 person companies; Heads of Operations and Automation; agency owners who subcontract delivery; Heads of AI/Platform at B2B SaaS |
+| **The pain** | Sourcing, scoping and paying for specialist work is slow and full of counterparty risk. Add AI agents doing the buying and there's no safe way to let that happen at all. |
+| **What converts them** | Fixed price agreed up front. Money held, not sent. A review step before release. A defined dispute process. No 60-day invoice chase. |
+| **The hook shape** | "You've been burned by a contractor. Here's what escrow changes." |
 
-### ICP B — SUPPLY (the sellers: list APIs, take tasks, get paid)
+### ICP B — SUPPLY (take the work, get paid)
 | | |
 |---|---|
-| **Titles** | API product owners, indie devs/dev shops, data providers, specialist agencies and high-skill freelancers |
-| **The pain** | Monetising an API means Stripe, a billing page, a login wall, invoicing, chasing payment. For a $0.004 call that's absurd. |
-| **What converts them** | Per-request payment with no accounts and no dashboards. Paid directly, instantly, in USDC. Discoverable by 69,000 agents. |
-| **The hook** | "Your API can be bought by a machine at 3am for four-tenths of a cent, and you'll have the money before you wake up." |
+| **Titles** | Specialist freelancers and dev shops, agencies with spare capacity, API and data providers, builders running their own agents |
+| **The pain** | Chasing invoices. Scope creep with no recourse. Platforms taking 20% and owning the client relationship. Getting paid across borders. |
+| **What converts them** | The money is already locked before you start. Scope is signed, so creep is visible. Paid in USDC on acceptance, not in 60 days. |
+| **The hook shape** | "The money was in escrow before you wrote the first line." |
 
-### ICP C — AMPLIFIERS (not buyers, but they carry reach)
-x402 ecosystem builders, Base/Coinbase devrel, AI-agent framework maintainers, MCP
-builders, AI-infra analysts and newsletter writers. These are **podcast guests** and
-comment-section allies, not sales targets. They are how a zero-follower page borrows
-an audience — see `02-linkedin/engagement-playbook.md`.
+### ICP C — AMPLIFIERS
+Agent-framework and MCP builders, x402 ecosystem people, Base/Coinbase devrel,
+AI-infra writers, future-of-work commentators. Not buyers — **podcast guests and
+comment-section allies.** This is how a zero-follower page borrows an audience.
+
+## The channel bet
+
+Every competitor in agentic payments is on Crypto Twitter. **LinkedIn is empty** — and
+LinkedIn is where people who hire contractors and authorise spend actually are. It's also
+the natural home for a "future of work / how work gets commissioned" story, which is what
+a task marketplace really is.
+
+The legitimacy proof that makes this land on LinkedIn rather than read as crypto: **x402
+governance sits with the Linux Foundation, with Google, Visa, Mastercard, Stripe, AWS and
+Circle as members.**
 
 ## Positioning statement
 
-> For teams building AI agents that need to buy things, **vAPI Network** is the
-> non-custodial wallet and task market that lets an agent discover, pay for and
-> commission work over x402 — with hard spend caps, direct settlement and a receipt
-> for every transaction. Unlike custodial agent-payment platforms, **your key never
-> leaves your machine and vAPI never holds your funds.**
+> For companies that need specialist work done — and for the agents and people who do it —
+> **vAPI Network** is a task market where scope and price are agreed up front, the money
+> sits in USDC escrow until the work is accepted, and disputes are settled by three
+> independent reviewers. **Nobody chases an invoice, and nobody works on trust alone.**
 
-## Message hierarchy (what we say, in priority order)
+## Message hierarchy
+1. **Fixed scope, fixed price** — both sides sign before anything starts
+2. **Money is locked, not sent** — escrow protects both sides
+3. **Review before release** — you see the work before you pay for it
+4. **Disputes have a process** — three reviewers, two matching votes, release/refund/split
+5. **Agents can do this too** — a machine can commission work, with hard spend caps
+6. **You keep custody** — non-custodial, key never leaves your machine, Hacken audited, Apache 2.0
+7. **This is a standard, not a startup gamble** — x402 under Linux Foundation governance
 
-1. **Control** — "Spend policy is applied *before* signing. Caps per call, per wallet, per day."
-2. **Custody** — "We never hold your funds. Payment goes from your wallet to the service."
-3. **Proof** — "Every payment writes a receipt to a local append-only ledger."
-4. **Legitimacy** — "x402 is governed by the Linux Foundation. Google, Visa, Mastercard, Stripe, AWS and Circle are members."
-5. **Openness** — "Apache 2.0. Audited by Hacken. Read the code."
-6. **The future** — "Tasks: fund scoped work in USDC escrow, review before you pay." _(pre-launch — build-in-public framing only)_
-
-## Anti-positioning — what we never do
-- Never lead with price action, tokens, airdrops or "wen." It kills the LinkedIn audience instantly.
-- Never say "crypto" when "stablecoin settlement" or "programmable payments" is accurate.
-- Never imply Tasks / Compute / Stake are live.
-- Never use "VAPI" without "Network".
-- No engagement-bait ("Agree? 👇"), no fake vulnerability posts, no broetry.
+## Anti-positioning
+- Never lead with the protocol. Lead with the hiring problem.
+- Never lead with tokens, price, airdrops or "wen."
+- Say "stablecoin settlement" or "escrow", not "crypto", where accurate.
+- Never claim ship dates for Compute or Stake.
+- Never "VAPI" without "Network".

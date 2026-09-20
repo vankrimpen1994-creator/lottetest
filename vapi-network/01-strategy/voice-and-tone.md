@@ -34,12 +34,17 @@ This is the register that survives a compliance reader.
 ("most agent-payment tools are custodial and nobody says so out loud"). This is where
 reach actually comes from.
 
+## The first rule of every hook
+**Start at the hiring problem, not the protocol.** If the first two lines contain "x402",
+"onchain" or "non-custodial", rewrite them. The plumbing is proof, and proof belongs in
+the middle of a post.
+
 ## Hook patterns that work for this ICP
-1. **The uncomfortable question** — "Would you give an autonomous process your company card?"
-2. **The specific number** — "165 million agent payments happened last year. Almost none of them had a spend cap."
-3. **The correction** — "x402 isn't a crypto project. It's governed by the Linux Foundation, and Visa and Mastercard are members."
-4. **The build note** — "We shipped the spend-policy layer twice. Here's what the first version got wrong."
-5. **The concrete scene** — "At 3am a machine bought four-tenths of a cent of data from an API in Lisbon. Nobody logged in."
+1. **The lived scene** — "The contractor went quiet at 80% done."
+2. **The reversal** — "The money was already locked before you wrote the first line."
+3. **The uncomfortable question** — "What's gone wrong most often when you've hired someone?"
+4. **The correction** — "x402 isn't a crypto project. Governance sits with the Linux Foundation, and Visa and Mastercard are members." _(good mid-post, weak as an opener)_
+5. **The specific number** — "165 million agent payments happened last year. Almost none had a spend cap."
 
 ## Banned words
 excited, thrilled, delighted, game-changer, revolutionary, disrupt, unlock, leverage,

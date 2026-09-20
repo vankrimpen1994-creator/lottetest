@@ -1,48 +1,52 @@
-# Discovery Questions
+# Discovery Questions — agency meeting
 
-Ask these on the call. Answers go straight into `01-strategy/client-profile.md`.
-Priority ★ = ask even if time is short.
+Ask these of **the agency**, not the client. Priority ★ = ask even if time is short.
+Answers go into `01-strategy/client-profile.md` and `05-ops/`.
 
-## Commercial
-- ★ Is this trial for vAPI Network directly, or are we subcontracting through the agency? Who signs off, who pays?
-- ★ Is $1,300 per month, or one-off for the 90 days? _(This changes scope — see `scope-and-pricing.md`.)_
-- What would make you say at day 90 that this worked? Be specific.
-- Is there a budget for paid amplification on top, or is this strictly organic?
-- Is VAPA the same buyer? Should the two run as one programme or stay separate?
+## The relationship _(most valuable questions in the meeting)_
+- ★ Is $1,300 per project **monthly**, or for the whole engagement?
+- ★ **How many clients could this run for if the trial works?** Is vAPI a test case for something bigger?
+- ★ Is VAPA the same shape of work, or different?
+- Who do we report to, and how do you want to receive work — Slack, Notion, Drive?
+- Do you want us white-labelled, or visible to the client?
+- Do you join client calls, or do we? Under whose banner?
+- Who's currently doing this work, and what's going wrong with it?
+- What does a supplier do that makes you not renew them?
+- What's your own approval layer — do you review before it reaches the client?
 
-## Product & truth
-- ★ What ships in the next 90 days? Any date for Tasks?
-- Is there a token, a raise, or a public launch we should build the calendar around?
-- ★ Is a rebrand or name change on the table? _(Changes how hard we push name-building vs. category-building.)_
-- Who are the real competitors in your view — and who do you not want mentioned?
-- Anything legally off-limits? Securities language, custody claims, jurisdictions?
+## Scope & expectations
+- ★ What has the client actually asked for, in their words?
+- What does the client consider success at 90 days?
+- Is LinkedIn the whole brief, or is it part of something wider?
+- Is there paid budget on top, or strictly organic?
+- Who owns inbound DMs and comments — you, us, or the client?
+- Any work already done we'd be building on or replacing?
 
-## Audience
-- ★ Who are your best current users — buyers or API providers? Names and titles.
-- Where do you get users today? What's actually working?
-- Who do you most want to reach and currently can't?
-- Any logos, numbers or user stories we're allowed to cite?
+## The client — product truth
+- ★ Is **Tasks** live to the public today, or in private beta?
+- ★ Which side of the marketplace is the constraint — buyers posting work, or people to do it?
+- What ships in the next 90 days? Anything to build a calendar around?
+- Is a rebrand or name change on the table? _(Changes how hard we push name-building — see the collision note in the client profile.)_
+- Any users, logos or numbers we're cleared to cite?
+- Anything legally off-limits — securities language, custody claims, jurisdictions?
 
-## Existing presence
-- ★ Does a LinkedIn company page exist? Admin access?
-- Who on the team posts already, and who's willing to start?
-- Analytics access — page, site, CRM?
-- What content exists we can repurpose — docs, talks, threads, decks?
+## The client — presence & people
+- ★ Does a LinkedIn company page exist? Who has admin?
+- ★ **Will founders or execs post from personal profiles?** _(The single biggest determinant of whether the target bands are realistic.)_
+- Who's the single named content approver, and can they turn things around in 48 hours?
+- Brand assets — logo, fonts, hexes, deck. Who sends them, when?
+- Analytics access: page, site, CRM?
+- Existing content we can repurpose — docs, talks, threads?
 
 ## Podcast
-- ★ Who hosts — a founder, or do we supply a host?
-- Do you have 45 minutes every two weeks, reliably?
-- Existing name, feed, or art — or are we starting clean?
-- Who are the five guests you'd most want, and do you have a warm intro to any?
-- Video as well as audio? (Strongly recommended — it's where the clips come from.)
+- ★ Does the client have 45 minutes every two weeks, reliably?
+- Who hosts — a founder, or do we supply a host?
+- Existing name, feed or art, or starting clean?
+- Video as well as audio? _(Strongly recommended — it's where the clips come from.)_
+- Five guests the client would most want, and any warm intros?
 
-## Brand & design
-- ★ Logo files, fonts, colour hexes, existing deck — who sends them and when?
-- Any brand guidelines document?
-- Anything visually you actively dislike?
-
-## Process
-- ★ Who is the single named content approver, and can they turn things around in 48 hours?
-- Preferred tools — Notion, Slack, Google Drive?
-- How do you want to receive reporting, and how often?
-- Who handles inbound DMs and comments — us, or you?
+## Commercial
+- Payment terms, and who invoices whom?
+- Do you need us to sign an NDA?
+- Notice period you'd want?
+- When do you need a decision, and what's the next step after today?
