@@ -64,6 +64,40 @@ Mitigations, all free, all Week 0:
 3. Own `#x402` / `#agenticpayments` / `#agenteconomy`, never `#vapi`
 4. Claim the custom page URL immediately
 
+## The agency: Coconnect
+
+We work for **Coconnect**, not for vAPI directly. Facts from the intro call (2026-09-26):
+
+- Founded December 2025, boutique — three people on strategy plus freelancers.
+- Specialism: growing **real user bases** for Web3 projects. Rik's stated ethos: vanity
+  metrics don't count. "It doesn't matter how many clicks you get unless these users are
+  actually deploying capital, actually using the product."
+- **Compensation is success-based**, tied to product milestones rather than a monthly
+  retainer. That is why quality matters to him disproportionately: if the social layer
+  underperforms, his own fee is at risk.
+- Services: community management, podcasting, SEO, influencer marketing, community
+  distribution. Social content is a **new** line they've just started selling in.
+- Prior campaigns named: Outcome (prediction markets), dYdX. Onboarding four new clients
+  in October; vAPI is the first to take the social scope.
+- **Rik** — co-founder, our contact for this trial. **Baha** — CMO, the day-to-day contact
+  once onboarded. Weekly client call with all department heads; separate internal
+  Coconnect calls that are blunter about what's working.
+- For the first campaign, client contact stays with Coconnect. Direct client contact comes
+  later, once the fit is proven.
+- Work is **freelance and lumpy** by his own description — "one month you have three
+  clients, the next nobody." Not a contract.
+- Everything runs on **Telegram**.
+
+### The division of labour — this is the brief
+Coconnect handles the **freelancer (supply) side** themselves, plus an outreach team,
+podcasting and paid ads. Our LinkedIn scope is the **business (demand) side**: getting
+companies to bring their hiring to vAPI. A smaller freelancer-facing stream runs alongside
+so the two sides of the marketplace can see each other.
+
+Rik's own description of the product, which is the altitude to write at:
+> "It's a job board, kind of like Upwork or Fiverr. That's what they are. They're not very
+> Web3 native."
+
 ## Open questions
 - Is Tasks live to the public today, or in private beta?
 - Which side is the constraint right now — buyers posting work, or agents/humans to do it?
