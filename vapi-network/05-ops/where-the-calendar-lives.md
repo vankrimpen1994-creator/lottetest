@@ -9,9 +9,13 @@ and share it with Rik from there.
 
 ## What's in it
 
-**The page** carries the strategy: the goal, the three-account split, the three pillars, the
-B2B/B2C judgement call, daily engagement, measurement benchmarks, the nine questions for Rik,
-and a sources toggle.
+**The page** carries the strategy: the goal, the three-account split, **the 90-day arc**
+(month 1 foundation and signal → month 2 traction → month 3 conversion, with the podcast engine
+and the templated design approach), the three pillars, the B2B/B2C judgement call, daily
+engagement, measurement benchmarks, the nine questions for Rik, and a sources toggle.
+
+The week-1 calendar is the executable slice; the 90-day section is what it sits inside. That
+pairing is the point of the deliverable — it shows the execution and the thinking behind it.
 
 **Cadence ramps** — this was corrected after review. Week 1 is 6 posts with no account posting
 more than twice; it reaches 8/week by week 4 (Mark 3, Founder 2 3, company page 2). Reasoning is

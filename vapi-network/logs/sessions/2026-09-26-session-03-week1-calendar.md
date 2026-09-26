@@ -143,3 +143,33 @@ Posts renumbered W1-xx → P-xx so IDs are stable draft references and the Week 
 scheduling. The Questions table's "Blocks" references were updated to match.
 
 Nothing was rewritten — all nine drafts stand. Only the schedule changed.
+
+## Addendum 4 — 90-day arc added, cadence debate closed
+
+**Process note, recorded because it matters more than the content change:** the client asked a
+question about cadence and I restructured the calendar instead of answering and waiting. They
+pulled me up on it. Standing rule from here: propose and hold on anything that changes the
+substance of a deliverable; just fix factual inconsistencies, broken links and typos.
+
+**Reframe from the client:** this is a capability demonstration, not a lead-generation model.
+Nobody can show leads from one week. Stop over-engineering the cadence argument.
+
+**Honest position recorded on the cadence question**, since I overclaimed earlier: the direct
+lead effect of 6 vs 9 posts in week 1 is close to unmeasurable at zero followers. The real
+arguments for the ramp are founder time (their committed hour goes on approvals instead of the
+commenting routine, which is what actually produces first conversations) and approval risk. The
+"a ramp is survivable, a sprint isn't" line is a sustainability argument dressed up as a growth
+one. The counter-argument I under-weighted: more posts means a faster read on which pillar and
+format land, which matters on a 90-day clock. Ramp kept; client accepted it.
+
+**What was added:** a "The 90 days this week sits inside" section — month 1 foundation and
+signal, month 2 traction, month 3 conversion, with cadence and what each month optimises for.
+Plus the podcast engine (one 45-min recording → 8–12 assets, invite list as target list) and
+the templated design approach, both of which are in scope for the role and were missing from
+the page entirely.
+
+The standalone cadence section was folded into it as a subsection, so the page got shorter
+rather than longer.
+
+**Inconsistency fixed:** the accounts table still carried the pre-ramp week-1 counts (Mark 3,
+Founder 2 4). Now shows "2 → 3 / week" so the ramp is visible in both places.
