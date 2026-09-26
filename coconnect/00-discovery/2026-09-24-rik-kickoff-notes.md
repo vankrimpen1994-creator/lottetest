@@ -1,4 +1,4 @@
-# Kickoff call notes — Rik Wijk (agency co-founder)
+# Kickoff call notes — Rik Wijk (Coconnect co-founder)
 
 Source: [`2026-09-24-rik-kickoff-transcript.md`](2026-09-24-rik-kickoff-transcript.md).
 Everything below is **as stated by Rik or Alex on the call**. Nothing here is verified.
@@ -7,7 +7,7 @@ a deliverable.
 
 ## 1. The client
 - **Who:** Rik Wijk, co-founder of a Web3 marketing / campaign agency. Former colleague of Alex.
-- **Agency name:** ⚠️ transcript renders it "Code Connect" / "Coconnect" / "Coconut". Confirm spelling.
+- **Agency name:** **Coconnect** (confirmed by Alex, 2026-09-26).
 - **Founded:** December 2025 (under a year old).
 - **What they sell:**
   - **Core packages** ("large scopes") — campaign work, e.g. the Outcome campaign with a $1M prize pool.
@@ -17,9 +17,6 @@ a deliverable.
 - **Active clients (4, their peak):** Outcome, Overtime, vAPI ⚠️ (launching soon), "Dampiers" ⚠️.
   Plus Chimpex (success-based, token-linked; introduced by Alex).
 - **Normal load:** ~2 active clients. Stated capacity: 5–6. **Deal flow is the bottleneck.**
-
-> ⚠️ "VAPI" as a client of Rik's agency: check whether this is vAPI Network (our other folder,
-> `vapi-network/`). If so, there's a relationship overlap to be aware of.
 
 ## 2. Where deals come from today
 | Source | Notes |
@@ -76,8 +73,7 @@ A whole commercial engine, not just a lead list:
 - **Alex's fee:** 20% commission, "what we're doing right now" (same as the current referral arrangement).
   Revisit after the first few months.
 - **Client pays:** the Claude subscription and the tool subscriptions.
-- ⚠️ Still open: 20% of what? Only engine-sourced deals, or everything? For how long per client?
-  Do Hub repeat payments count? Is there a setup fee? Who owns the accounts and the data?
+- **Settled (Alex, 2026-09-26):** 20% for as long as the arrangement runs. There's nothing further to scope here.
 
 ## 7. Process and timeline
 - **Onboarding:** about 1 week of 30-minute daily context sessions, focused on the ICP and the context for each sector.
@@ -89,4 +85,9 @@ A whole commercial engine, not just a lead list:
 - [ ] Rik walks his co-founder through the recording (same day), then sends the details.
 - [ ] Rik sends a document covering: ICP, hooks that worked, channel ranking, Hub info.
 - [ ] Lotte ↔ Rik: separate call, to be arranged on Telegram. She books from Rik's calendar.
-- [ ] Alex: share the SOP from the previous cohort. We turn it into a step-by-step build plan and a client intake questionnaire.
+- [x] Alex shared the SOP (2026-09-26). It's in `reference/`. See [`../01-build-plan/BUILD-PLAN.md`](../01-build-plan/BUILD-PLAN.md) and [`intake-questionnaire.md`](intake-questionnaire.md).
+
+## 9. Parked for the build (Alex, 2026-09-26)
+- Outcome figures and review: to go over later, and kept out of copy until they're confirmed.
+- X sending volume and limits: decided during the build.
+- CRM choice: decided during the build.

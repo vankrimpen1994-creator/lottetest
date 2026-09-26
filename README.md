@@ -6,7 +6,7 @@ operating cadence, and a full log of every Claude Code session run against it.
 | Folder | Client | Status |
 |---|---|---|
 | [`vapi-network/`](vapi-network/) | vAPI Network (vapinetwork.ai) — Task market (hire agents/humans for scoped work, USDC escrow) — LinkedIn, podcast, design | Trial / agency pitch |
-| [`rik-sales-engine/`](rik-sales-engine/) | Rik Wijk's Web3 campaign agency: AI commercial engine (lead gen → outreach → CRM → proposals) | Discovery |
+| [`coconnect/`](coconnect/) | Coconnect: Web3 campaign agency (Rik Wijk). AI commercial OS for outbound lead gen, outreach, CRM and proposals | Discovery |
 | _(future)_ | VAPA — separate project, separate folder | Not started |
 
 ## Start here

@@ -23,7 +23,15 @@ def main():
         os.environ.get("CLAUDE_PROJECT_DIR")
         or pathlib.Path(__file__).resolve().parents[2]
     )
-    outdir = root / "vapi-network" / "logs" / "transcripts"
+    # Which client folder to log into: first line of .claude/active-client, else vapi-network.
+    client = "vapi-network"
+    try:
+        c = (root / ".claude" / "active-client").read_text().splitlines()[0].strip()
+        if c and (root / c).is_dir():
+            client = c
+    except Exception:
+        pass
+    outdir = root / client / "logs" / "transcripts"
     outdir.mkdir(parents=True, exist_ok=True)
 
     sid = (data.get("session_id") or "unknown")[:12]

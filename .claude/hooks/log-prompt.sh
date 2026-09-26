@@ -5,7 +5,10 @@ set -uo pipefail
 
 INPUT=$(cat)
 ROOT="${CLAUDE_PROJECT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}"
-LOGDIR="$ROOT/vapi-network/logs/prompts"
+# Which client folder to log into: first line of .claude/active-client, else vapi-network.
+CLIENT=$(head -n1 "$ROOT/.claude/active-client" 2>/dev/null | tr -d '[:space:]')
+[ -n "$CLIENT" ] && [ -d "$ROOT/$CLIENT" ] || CLIENT=vapi-network
+LOGDIR="$ROOT/$CLIENT/logs/prompts"
 mkdir -p "$LOGDIR" 2>/dev/null || exit 0
 
 MONTH=$(date -u +%Y-%m)
