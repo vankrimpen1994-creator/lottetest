@@ -88,3 +88,29 @@ The seven-tab formatted workbook still exists as .xlsx for anyone who prefers to
 
 Two failed files were moved to Drive trash (an empty spreadsheet and the broken TSV
 import). Both were created in this session and held nothing usable.
+
+## Addendum 2 — rebuilt in Notion
+
+The flat spreadsheet was the wrong container and the client said so. 397 stacked rows with the
+post copy split one-paragraph-per-row reads as a document pretending to be a calendar; there's
+no way to filter by account, see what's blocking a post, or move something through approval.
+
+**Rebuilt as a Notion page + database:**
+https://app.notion.com/p/3e767a3a5a8a81aa92c4c2c039a48b89
+
+Modelled on the Notion "Social Media Calendar" template the client shared, but extended — the
+template only carries Name / Date / Platform / Area / Status / Visuals needed, which has no room
+for a hook, the audience split, the pillar discipline, or what each post is blocked on.
+
+Added: **Account**, **Audience**, **Pillar**, **Hook**, **Needs from client**, **Week**. Kept the
+template's Status and Visuals-needed idea. Three views: calendar by date, board by account,
+board by approval status.
+
+Each post is a page, not a cell: why it exists, the pain point, full copy in a code block with
+Notion's one-click copy, visual brief, sources. W1-01 carries the carousel slide table.
+
+**Note on the first attempt:** the Notion connector was initially authenticated to a different
+workspace (Stratosphere), so the shared template 404'd. The client reconnected on the right
+account. Nothing from the wrong workspace was used.
+
+The Google Sheet and the .xlsx are superseded but not deleted — awaiting the client's call.
