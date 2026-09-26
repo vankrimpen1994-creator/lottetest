@@ -57,3 +57,34 @@ is generated — edit the data file, not the spreadsheet.
 2. Who is Founder 2, and will both founders actually post and comment?
 3. 20 minutes with each founder to fill the bracketed personal lines.
 4. Brand assets, CTA, legal boundaries, approver and turnaround.
+
+## Addendum — delivering it as a Google Sheet
+
+**Live Sheet:** https://docs.google.com/spreadsheets/d/1fckbUDY8UxmB2Yz3j134mZm88rB5HV5ImAYqyaT92vA/edit
+
+Three attempts, worth recording so the next week doesn't repeat them:
+
+1. **Native build via the Sheets connector — blocked.** The connector appeared mid-session
+   but is authorised against a different Google account than Drive: it returns "Permission
+   denied" on every file in this Drive, including pre-existing ones, so it isn't a
+   propagation delay. Tabs and formatting can't be built through the API until that's
+   reconnected on the same account.
+2. **xlsx upload via base64 — not attempted past encoding.** Drive can convert an uploaded
+   .xlsx into a seven-tab Sheet, but the payload is 34,776 base64 characters that would
+   have to be reproduced exactly. Silent corruption was the likely failure mode, and the
+   connector reference warns uploads that size often fail outright. Rejected.
+3. **TSV upload — failed.** Drive parses uploads as CSV regardless of the declared
+   content type. Tabs survived as literal characters inside single cells, commas split
+   cells instead, and the `==========` section separators were read as formulas and became
+   `#ERROR!`. File trashed.
+4. **CSV upload — worked.** Proper quoting via `csv.writer`, a round-trip assertion in the
+   generator, em-dash separators instead of `=`, and a guard that prefixes any cell
+   starting with `=`, `+` or `@`. Verified after upload: A1:I397, nine columns, long
+   sentences intact, no error cells.
+
+**Layout consequence:** one tab, not seven. The post copy is split one paragraph per row
+so it reads correctly with no formatting applied — which a CSV import can't carry anyway.
+The seven-tab formatted workbook still exists as .xlsx for anyone who prefers to import it.
+
+Two failed files were moved to Drive trash (an empty spreadsheet and the broken TSV
+import). Both were created in this session and held nothing usable.

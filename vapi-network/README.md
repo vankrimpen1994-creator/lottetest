@@ -13,8 +13,8 @@ humans for scoped work at a fixed price, paid through USDC escrow**
 Rik asked for one week of content to judge whether Lotte gets the product and the calendar shape.
 
 1. **[`00-pitch/week1-exercise.md`](00-pitch/week1-exercise.md)** — what he's actually testing, how to hand it over, and the Telegram message
-2. **[`02-linkedin/calendar/vAPI Network - LinkedIn content calendar - Week 1.xlsx`](02-linkedin/calendar/)** — the deliverable. 7 tabs. Drag into Drive → Google Sheet
-3. [`05-ops/how-to-open-the-sheet.md`](05-ops/how-to-open-the-sheet.md) — the five-second import, and how to rebuild it
+2. **[Live Google Sheet](https://docs.google.com/spreadsheets/d/1fckbUDY8UxmB2Yz3j134mZm88rB5HV5ImAYqyaT92vA/edit)** — the deliverable, ready to share with Rik (set to comment access first)
+3. [`05-ops/how-to-open-the-sheet.md`](05-ops/how-to-open-the-sheet.md) — how it's laid out, and the 7-tab .xlsx alternative
 4. [`02-linkedin/post-bank/2026-10-05-week1-posts.md`](02-linkedin/post-bank/2026-10-05-week1-posts.md) — the nine posts in full
 
 ## Background from the pitch stage
