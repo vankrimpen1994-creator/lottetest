@@ -13,11 +13,25 @@ and share it with Rik from there.
 B2B/B2C judgement call, daily engagement, measurement benchmarks, the nine questions for Rik,
 and a sources toggle.
 
-**The database** (`Content Calendar — Posts`) holds the nine posts, one row each:
+**Cadence ramps** — this was corrected after review. Week 1 is 6 posts with no account posting
+more than twice; it reaches 8/week by week 4 (Mark 3, Founder 2 3, company page 2). Reasoning is
+on the page: at zero followers a post reaches almost nobody, so week 1 exists to make the
+profiles worth landing on while the commenting routine builds the audience. A ramp is also
+survivable — 5/week for three months beats 9/week for a fortnight and a gap.
+
+| | Mark | Founder 2 | Company | Total |
+|---|---|---|---|---|
+| Week 1 | 2 | 2 | 2 | 6 |
+| Week 2 | 3 | 2 | 2 | 7 |
+| Week 3 | 3 | 3 | 2 | 8 |
+| Week 4 on | 3 | 3 | 2 | 8 |
+
+**The database** (`Content Calendar — Posts`) holds nine drafted posts, one row each — six in
+week 1, three banked for week 2:
 
 | Property | Why it's there |
 |---|---|
-| Post, Date, Week | The grid |
+| Post, Date, Week | The grid. IDs (P-01…) are stable draft references, not week numbers |
 | Account | Mark / Founder 2 / company page |
 | Audience | B2B or B2C — the split is visible at a glance |
 | Pillar | Enforces the three-pillar discipline |

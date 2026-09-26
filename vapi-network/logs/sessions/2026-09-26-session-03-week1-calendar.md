@@ -114,3 +114,32 @@ workspace (Stratosphere), so the shared template 404'd. The client reconnected o
 account. Nothing from the wrong workspace was used.
 
 The Google Sheet and the .xlsx are superseded but not deleted — awaiting the client's call.
+
+## Addendum 3 — cadence corrected to a ramp
+
+The client challenged posting every day in week 1. Partly a misread, mostly a real error.
+
+**The misread:** no single account was posting daily — Mark 3/week, Founder 2 4/week, company 2.
+Per-account cadence was already inside the brief's 3-per-week guidance. The calendar only *looked*
+daily because three accounts were stacked on one grid.
+
+**The real error:** week 1 shouldn't run at steady state at all. The research brief's own 30-day
+plan puts week 1 at 2–3 posts per founder *plus* profile optimisation, pillar lock and target-list
+build; weeks 2–4 then go to 3/founder/week. I jumped straight to steady state, and put Founder 2 —
+whose name isn't even confirmed — at the highest volume of any account.
+
+Two further arguments for ramping, neither of which was in the original plan:
+- At zero followers a post reaches almost nobody. Week 1 posts exist so the profile isn't empty
+  when someone clicks through from a comment. Reach comes from the commenting routine, so
+  front-loading posts spends the founders' scarce time on approvals instead of engagement.
+- Nine posts in week 1 means nine approvals from a client who hasn't confirmed the product name,
+  the CTA, brand assets or Founder 2's identity. That's how a first week slips entirely.
+
+**Change:** week 1 cut from 9 to 6 (Mark 2, Founder 2 2, company 2), ramping 6 → 7 → 8 → 8.
+Three posts moved to week 2. P-07 (the carousel) moved deliberately — it needs brand assets that
+aren't confirmed, so it was the wrong thing to lead with.
+
+Posts renumbered W1-xx → P-xx so IDs are stable draft references and the Week property carries
+scheduling. The Questions table's "Blocks" references were updated to match.
+
+Nothing was rewritten — all nine drafts stand. Only the schedule changed.

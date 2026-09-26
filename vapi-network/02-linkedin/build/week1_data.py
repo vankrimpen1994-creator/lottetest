@@ -17,6 +17,22 @@ WEEK = {
              "Shift the whole grid by whole weeks if that moves."),
 }
 
+# Cadence ramps rather than opening at full speed. At zero followers a post
+# reaches almost nobody, so week 1 exists to make the profiles worth landing on
+# while the reach is built by the daily commenting routine. No account posts
+# more than twice in week 1.
+RAMP = {
+    # week: (Mark, Founder 2, company page, total)
+    1: (2, 2, 2, 6),
+    2: (3, 2, 2, 7),
+    3: (3, 3, 2, 8),
+    4: (3, 3, 2, 8),   # steady state; 3/founder/week is the floor for growth
+}
+
+# Notion is authoritative for scheduling:
+# https://app.notion.com/p/3e767a3a5a8a81aa92c4c2c039a48b89
+# Post IDs (P-01...) are stable draft references, not week numbers.
+
 ACCOUNTS = {
     "mark":    {"name": "Mark [FOUNDER 1]", "handle": "X: @MarkTbuilds",
                 "role": "B2B lead voice — main channel", "colour": "DCE9F7"},
@@ -35,7 +51,7 @@ PILLARS = {
 # ---------------------------------------------------------------- posts
 POSTS = [
     dict(
-        id="W1-01", date="2026-10-05", day="Monday", time="08:30 CET",
+        id="P-07", date="2026-10-12", day="Monday", time="08:30 CET", week=2,
         account="mark", audience="B2B", pillar=2, fmt="Carousel (10 slides) + text",
         hook="Paying a contractor in another country costs more than you think. Not the rate — the moving of the money.",
         pain="Cross-border contractor payments quietly eat 3–5% and a working week.",
@@ -78,7 +94,7 @@ What does your finance team currently budget for cross-border contractor payment
         sources="Request Finance, stablecoin B2B guide, 2026 (via onderzoeksbrief §8).",
     ),
     dict(
-        id="W1-02", date="2026-10-05", day="Monday", time="17:00 CET",
+        id="P-05", date="2026-10-08", day="Thursday", time="17:00 CET", week=1,
         account="founder2", audience="B2C", pillar=2, fmt="Text (+ optional simple graphic)",
         hook="You finished the work three weeks ago. The invoice is 'being processed.'",
         pain="Freelancers fund their clients' cash flow, interest-free, with no way to opt out.",
@@ -116,7 +132,7 @@ If you freelance: what's the longest you've ever waited to get paid for work you
         sources="None required — no external figures used.",
     ),
     dict(
-        id="W1-03", date="2026-10-06", day="Tuesday", time="08:30 CET",
+        id="P-03", date="2026-10-07", day="Wednesday", time="08:30 CET", week=1,
         account="founder2", audience="B2B", pillar=1, fmt="Text",
         hook="AI agents can write your code, research your market and draft your contracts. They still can't get paid.",
         pain="Teams running agents have no safe way to let them transact — card-and-hope, or an approval queue that defeats the point.",
@@ -151,7 +167,7 @@ If you're running agents in production: how are you handling spend today?""",
         sources="None required.",
     ),
     dict(
-        id="W1-04", date="2026-10-06", day="Tuesday", time="12:00 CET",
+        id="P-02", date="2026-10-06", day="Tuesday", time="12:00 CET", week=1,
         account="company", audience="B2B", pillar=1, fmt="Text + single image",
         hook="vAPI Network is where businesses hire AI agents and specialists for scoped work — and where the payment is held until the work is accepted.",
         pain="Prospects who land on the page don't know what the company is in one sentence.",
@@ -187,7 +203,7 @@ Follow along for build updates as the rest ships.""",
                  "Hacken audit and Apache 2.0: vAPI Network GitHub repo. CONFIRM both with Rik before publishing."),
     ),
     dict(
-        id="W1-05", date="2026-10-07", day="Wednesday", time="08:30 CET",
+        id="P-01", date="2026-10-05", day="Monday", time="08:30 CET", week=1,
         account="mark", audience="B2B", pillar=1, fmt="Text",
         hook="Most 'AI agent marketplaces' are directories. A marketplace needs one thing directories don't: a way to hold the money until the work is done.",
         pain="Buyers can't tell competing 'agent marketplaces' apart, so they trust none of them.",
@@ -216,7 +232,7 @@ What would you need to see before you'd let an agent commission work on your com
         sources="None required.",
     ),
     dict(
-        id="W1-06", date="2026-10-08", day="Thursday", time="08:30 CET",
+        id="P-09", date="2026-10-15", day="Thursday", time="08:30 CET", week=2,
         account="founder2", audience="B2C", pillar=1, fmt="Text",
         hook="An AI agent might be your next client.",
         pain="Freelancers are anxious that agents replace them; the reframe is that agents commission them.",
@@ -247,7 +263,7 @@ Freelancers: would you take a job commissioned by software, if the money was alr
         sources="None required.",
     ),
     dict(
-        id="W1-07", date="2026-10-08", day="Thursday", time="12:00 CET",
+        id="P-06", date="2026-10-09", day="Friday", time="12:00 CET", week=1,
         account="company", audience="B2B", pillar=3, fmt="Text + single image",
         hook="Call is live.",
         pain="Pre-launch companies look like vapourware unless something concrete has shipped.",
@@ -279,7 +295,7 @@ The code is public, if you'd rather read it than take our word for it.""",
         sources="Product facts: vAPI Network GitHub repo and onderzoeksbrief §2. CONFIRM with Rik.",
     ),
     dict(
-        id="W1-08", date="2026-10-09", day="Friday", time="08:30 CET",
+        id="P-04", date="2026-10-08", day="Thursday", time="08:30 CET", week=1,
         account="mark", audience="B2B", pillar=3, fmt="Text",
         hook="If an AI agent does the job wrong, who gives the money back?",
         pain="Nobody trusts a marketplace whose operator also judges its disputes.",
@@ -312,7 +328,7 @@ Anyone who's built dispute resolution before: what did we get wrong?""",
         sources="None required.",
     ),
     dict(
-        id="W1-09", date="2026-10-09", day="Friday", time="12:00 CET",
+        id="P-08", date="2026-10-14", day="Wednesday", time="12:00 CET", week=2,
         account="founder2", audience="B2B", pillar=2, fmt="Text",
         hook="Three questions to ask before you let software spend your company's money.",
         pain="Buyers can't evaluate agent-payment tools because the differences aren't visible from a landing page.",
